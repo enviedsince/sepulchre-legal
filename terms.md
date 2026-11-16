@@ -1,0 +1,229 @@
+# SEPULCHRE — TERMS OF SERVICE
+
+**Last Updated:** November 14, 2026
+
+Welcome to **Sepulchre**. These Terms of Service ("Terms") establish the conditions under which individuals, server owners, administrators, and communities may access and utilize the Sepulchre Discord bot and its associated services.
+
+By inviting, installing, purchasing access to, configuring, or otherwise interacting with Sepulchre, you acknowledge that you have read, understood, and agreed to these Terms.
+
+If you disagree with any provision outlined below, you must refrain from using or immediately discontinue your use of Sepulchre.
+
+---
+
+### 1. Acceptance of Terms
+
+By adding Sepulchre to a Discord server, accessing its commands, activating a server license, or utilizing any functionality provided by the service, you agree to comply with these Terms of Service.
+
+These Terms apply to all individuals interacting with Sepulchre, including server owners, administrators, moderators, staff members, license holders, and general users.
+
+Server owners and administrators are responsible for ensuring that their use and configuration of Sepulchre comply with these Terms.
+
+We reserve the right to restrict or revoke access to the service when these conditions are violated, subject to applicable law.
+
+### 2. Compliance with Laws and Platform Policies
+
+All users must comply with applicable local, national, and international laws, as well as Discord's Terms of Service, Community Guidelines, and other relevant platform policies.
+
+Sepulchre must not be used to facilitate, encourage, or participate in activities that violate these requirements.
+
+Any activity involving fraud, harassment, unauthorized access, malicious automation, illegal content, or abuse of Discord's infrastructure is strictly prohibited.
+
+Sepulchre is an independently operated service and is not officially affiliated with, endorsed by, or sponsored by Discord Inc.
+
+We reserve the right to investigate reported violations and take appropriate action to protect the service and its users.
+
+### 3. Acceptable Use and Prohibited Conduct
+
+To maintain the security, reliability, and integrity of Sepulchre, users are prohibited from engaging in the following activities:
+
+- Utilizing Sepulchre to spam, raid, threaten, harass, impersonate, or intentionally disrupt individuals or Discord communities.
+- Attempting to reverse engineer, decompile, modify, redistribute, or extract proprietary components of Sepulchre without authorization, except where applicable law permits.
+- Exploiting vulnerabilities, bugs, configuration weaknesses, or unintended functionality for personal benefit or to disrupt the service.
+- Bypassing licensing systems, permission checks, blacklists, rate limits, security mechanisms, or other access restrictions.
+- Copying, reselling, sublicensing, distributing, or commercially exploiting Sepulchre's proprietary software or services without written authorization.
+- Using automated scripts, unauthorized integrations, or external tools to overload, manipulate, or interfere with Sepulchre's infrastructure.
+- Using Sepulchre to facilitate fraudulent transactions, phishing, credential theft, malicious links, or other deceptive activities.
+- Deliberately manipulating moderation, ticketing, logging, or automation systems to harm users or compromise server security.
+- Attempting to access another server's configuration, tickets, logs, records, or private information without authorization.
+- Using Sepulchre to circumvent a Discord enforcement action or maintain prohibited activity within a community previously terminated for violations.
+
+We may suspend or terminate access when credible evidence indicates that a user or server poses a security, legal, or operational risk.
+
+### 4. Licensing, Pricing, and Ownership
+
+Sepulchre may offer access to premium functionality through server-specific licenses.
+
+Under the stated licensing model, a server license is available for a **one-time payment of $5.99 USD per Discord server**, with no recurring subscription charges.
+
+Upon successful payment and license activation, the purchaser receives a limited, non-exclusive, non-transferable except as expressly permitted under Section 5, and revocable right to access the licensed features for the designated Discord server.
+
+The following conditions apply:
+
+- Each license is associated with a specific Discord server ID and purchasing account.
+- A single license does not authorize simultaneous premium access across multiple Discord servers.
+- Purchasing a license does not transfer ownership of Sepulchre, its source code, branding, infrastructure, or intellectual property.
+- Licenses may not be resold, shared, duplicated, or reassigned outside the authorized transfer process.
+- License access remains subject to these Terms and applicable service restrictions.
+- Any applicable taxes or transaction fees will be disclosed during the purchasing process.
+
+Sepulchre and its operators retain all rights, title, and interest in the service, including its software, designs, systems, and branding.
+
+### 5. Server License Transfers
+
+Eligible license holders may transfer an existing Sepulchre server license to another Discord server, subject to the following limitations.
+
+**Transfer Eligibility**
+
+Each license includes one (1) complimentary server transfer within a rolling 30-day period.
+
+After a successful transfer, the license becomes subject to a new 30-day transfer restriction, during which additional transfers are unavailable.
+
+**Transfer Conditions**
+
+- Transfers must be initiated by the authorized license holder.
+- A license may only be active on one designated Discord server at a time.
+- A completed transfer immediately removes the licensed access from the previous server.
+- Transfers cannot be reversed automatically once finalized.
+- Additional server licenses must be purchased when simultaneous access is required.
+- Suspended, revoked, fraud-associated, or blacklisted licenses are ineligible for transfer.
+- Server owners are responsible for ensuring the destination server is properly configured and accessible.
+
+The deletion, termination, or loss of access to a Discord server does not automatically entitle the license holder to a replacement, refund, or reinstatement.
+
+Sepulchre may reject transfers that present security concerns, violate these Terms, or cannot be verified as legitimate.
+
+### 6. Payments, Refunds, and Chargebacks
+
+Sepulchre provides digital access to software functionality and server-based services.
+
+Unless otherwise required by applicable consumer protection law, purchases are considered final once the digital license has been delivered and activated.
+
+**Refund Conditions**
+
+- Refunds are generally not provided for changes of mind, accidental purchases, unused licenses, or dissatisfaction with features that were accurately described before purchase.
+- Users are responsible for confirming that Sepulchre meets their requirements before purchasing.
+- Removal of Sepulchre from a server does not automatically qualify a purchaser for reimbursement.
+- A suspension or termination resulting from a verified violation of these Terms does not automatically create a refund entitlement.
+- Any mandatory consumer rights, including applicable digital-content withdrawal or conformity rights, remain unaffected.
+
+**Payment Disputes and Chargebacks**
+
+Fraudulent or abusive payment reversals, knowingly false disputes, or attempts to obtain services without payment may result in suspension of the relevant license, investigation, or further account restrictions.
+
+A license may be temporarily restricted while a legitimate payment dispute is being reviewed.
+
+Sepulchre will not penalize users solely for exercising lawful consumer rights or filing a legitimate payment dispute.
+
+Further information regarding purchasing conditions and refund eligibility is available in the Sepulchre Refund Policy.
+
+### 7. Server Administration and Moderation Responsibility
+
+Sepulchre provides server management, moderation, ticketing, automation, and administrative features intended to assist Discord communities.
+
+Server owners and authorized staff retain responsibility for their server's configuration, operational decisions, and the actions performed using these systems.
+
+This includes, but is not limited to:
+
+- Moderation commands, bans, kicks, warnings, timeouts, and other disciplinary actions.
+- Automated moderation rules, anti-raid protection, security filters, and honeypot configurations.
+- Ticket creation, management, transcripts, and staff interactions.
+- Custom messages, embeds, announcements, welcome messages, and server information panels.
+- Role assignments, permission configurations, verification systems, and automated workflows.
+- Activity logs, moderation records, and other server-related information processed through the bot.
+
+Administrators must review their configurations carefully before enabling enforcement actions or automated systems.
+
+Sepulchre cannot guarantee that automated moderation or security features will identify every threat, avoid every false positive, or operate without interruption.
+
+To the extent permitted by law, Sepulchre is not responsible for consequences arising from improper configuration, unauthorized staff actions, or decisions made by individual server administrators.
+
+### 8. Privacy, Data Handling, and Third-Party Independence
+
+Sepulchre may process certain Discord-related information necessary to operate its features, such as user IDs, server IDs, configuration settings, moderation records, ticket information, and other relevant operational data.
+
+The exact categories of information collected, their purposes, retention periods, and applicable privacy rights are described in the Sepulchre Privacy Policy.
+
+Users and administrators must not deliberately use Sepulchre to collect, expose, or distribute confidential information without a lawful basis or appropriate authorization.
+
+Server administrators are responsible for informing their members about any applicable monitoring, logging, or automated moderation practices as required by law.
+
+**Third-Party Independence**
+
+Sepulchre operates independently from the Discord communities that utilize its services.
+
+We do not control or endorse the conduct, statements, transactions, content, or moderation policies of individual Discord servers.
+
+Using Sepulchre does not establish a partnership, employment relationship, agency, sponsorship, or joint venture between Sepulchre and any server, community, or third-party organization.
+
+Responsibility for independently operated Discord communities remains with their respective owners and administrators.
+
+### 9. Availability, Maintenance, and Service Termination
+
+Sepulchre is provided on an **"as-is" and "as-available"** basis, subject to applicable law.
+
+Although we aim to maintain a stable, secure, and reliable service, continuous availability cannot be guaranteed.
+
+Service interruptions may occur because of maintenance, software updates, technical failures, Discord API changes, infrastructure outages, or circumstances beyond our reasonable control.
+
+We reserve the right to:
+
+- Temporarily restrict access when maintenance or security work is necessary.
+- Modify, improve, replace, or discontinue features when operationally required.
+- Suspend accounts, servers, or licenses associated with credible abuse or security threats.
+- Permanently revoke access following serious or repeated violations of these Terms.
+- Introduce reasonable technical limitations to maintain platform stability.
+
+Where appropriate and reasonably possible, we may provide advance notice of significant service changes.
+
+Any permanent discontinuation of paid functionality will remain subject to applicable contractual and consumer protection obligations.
+
+### 10. Limitation of Liability and Disclaimer of Warranties
+
+To the maximum extent permitted by applicable law, Sepulchre and its operators disclaim warranties not expressly required by law, including implied warranties of uninterrupted operation, fitness for a particular purpose, and error-free functionality.
+
+Sepulchre and its operators shall not be liable for indirect, incidental, special, or consequential losses arising from matters such as:
+
+- Temporary downtime, service interruptions, or infrastructure outages.
+- Loss of server configurations, logs, or other data caused by circumstances outside our reasonable control.
+- Improperly configured permissions, moderation systems, or automated actions.
+- Unauthorized actions performed by server administrators or staff members.
+- Discord platform restrictions, outages, or changes to third-party services.
+- Security incidents caused by compromised Discord accounts or external integrations.
+
+These exclusions apply only to the extent permitted by law and do not limit liability that cannot legally be excluded, including liability for fraud, intentional misconduct, or other legally protected claims.
+
+Nothing in these Terms removes mandatory statutory rights available to consumers.
+
+### 11. Amendments and Updates to These Terms
+
+Sepulchre may revise these Terms to reflect changes in service functionality, operational requirements, security practices, legal obligations, or licensing conditions.
+
+The latest version will display its effective or last-updated date.
+
+Where changes materially affect existing users or paid license holders, we will make reasonable efforts to provide notice through an appropriate official communication channel.
+
+Continued use of Sepulchre after updated Terms become effective may constitute acceptance of those changes where permitted by applicable law.
+
+Changes will not retroactively remove mandatory consumer rights or override obligations that cannot legally be modified.
+
+Users who disagree with revised Terms should discontinue use of the service and contact support regarding any outstanding contractual rights.
+
+### 12. Support, Legal Inquiries, and Contact Information
+
+Questions concerning these Terms, service restrictions, licensing, privacy-related inquiries, or alleged violations may be submitted through the official Sepulchre support community.
+
+**Official Support Server:** https://discord.gg/88nA6GTD7Q
+
+When contacting support, please provide sufficient relevant information for your request to be reviewed. Do not publicly disclose passwords, payment credentials, authentication tokens, or other sensitive information.
+
+We reserve the right to verify account or license ownership before disclosing protected information or processing account-related requests.
+
+---
+
+**FINAL ACKNOWLEDGMENT**
+
+By continuing to access, install, configure, or use Sepulchre, you acknowledge that you have reviewed these Terms of Service and agree to comply with their applicable provisions.
+
+Failure to comply may result in restricted access, license suspension, removal of service privileges, or permanent termination, depending on the nature and severity of the violation.
+
+**© 2026 Sepulchre. All Rights Reserved.**
