@@ -1,0 +1,23 @@
+{
+  "content": "",
+  "embeds": [
+    {
+      "color": 15016509,
+      "title": "Giveaway is live!",
+      "description": "A new giveaway has started. Follow the entry instructions in the server and good luck!",
+      "author": {
+        "name": "Sepulchre"
+      },
+      "footer": {
+        "text": "Community events"
+      },
+      "fields": [
+        {
+          "name": "Prize",
+          "value": "A Discord reward",
+          "inline": false
+        }
+      ]
+    }
+  ]
+}
