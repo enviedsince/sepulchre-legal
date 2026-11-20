@@ -1,53 +1,31 @@
-# Sepulchre website — concept release
+# Sepulchre — Premium Public Website v15 (static GitHub Pages build)
 
-A standalone, original seven-page HTML/CSS/JavaScript website inspired by the structure and interactions in the supplied bored.rest and YUSA Tweaks single-file webpage saves. **No third-party webpage code, private data, prices, logos, testimonials, server counts, or policies are redistributed here.**
+## What this is
+A public product-information and purchase-routing website, not a Discord administration dashboard or payment gateway. Seven pages: Home, Features, Commands, Purchase, FAQ, Embed Studio, Status information. Styled in red/black/silver; designed for low-motion accessibility, mobile, and desktop.
 
-## Pages
+## Install on GitHub Pages
+1. Back up the existing website repository first.
+2. Unzip **the contents** into the website repository root next to `index.html` (not inside another directory). Keep the `assets/` folder. Each HTML contains its own CSS and JavaScript to avoid the previously observed unstyled-white-page failure if an asset path is broken. Source copies are in `assets/style.css` and `assets/site.js`; the links and images use **relative paths** so the site also works from `https://YOURNAME.github.io/sepulchre-legal/` as a GitHub project site.
+3. Commit and push. Confirm GitHub Pages source is set to the correct branch and directory. After the Pages deployment finishes, hard refresh using Ctrl+Shift+R.
+4. Keep any existing `terms/`, `privacy/`, `refunds/`, `docs/`, and `commands-data.json` files when updating the official Sepulchrebot repository. This ZIP does not overwrite them. The footer links to the existing official published policy pages.
+5. Test Home → Purchase → Discord and the command catalog from the published Pages URL, not only the local file.
 
-- `index.html` — Home, feature bento, dashboard hero concept and onboarding
-- `commands.html` — Searchable, filtered **example** command catalog
-- `embeds.html` — Working Discord-style embed builder, live preview, fields, templates, JSON import/export
-- `status.html` — System status layout, unconnected by default, optional JSON telemetry endpoint
-- `faq.html` — Expandable FAQ
-- `dashboard.html` — Interactive mock management UI with browser-local toggles only
-- `pricing.html` — Pricing layout with **TBD / concept-only** plans until actual commercial terms are supplied
+## Purchase flow
+Navigation `Purchase` opens `purchase.html`. Button `Purchase through Discord` and final `Continue to Discord` open the **published official support server**: https://discord.gg/88nA6GTD7Q. There is no checkout and no collection of payment or Discord credentials. Price is the published $5.99 USD one-time per-server license (from Sepulchre v14 review), and available payment methods must be confirmed with staff.
 
-## Open locally
+## Logo
+`assets/sepulchre-mark-cropped.png` is a locally embedded **preview extraction from the supplied V14 screenshot**, not a replacement for the user's original high-resolution master logo. To achieve fully sharp branding, replace this image with the high-resolution original from your production `assets/` directory and update the matching image paths in generated HTML. The original public favicon is also accessible at `https://raw.githubusercontent.com/Sepulchrebot/sepulchrebot.github.io/main/assets/sepulchre-sp-crimson-new-favicon.png` but is small. No proprietary font files from third-party references are redistributed; this site uses DM Sans, Manrope and Instrument Serif with fallbacks.
 
-Double-click `index.html` to open the offline site. Navigation and editing work locally. For testing optional telemetry endpoints and browsers that restrict local file features, host the folder on any static server; e.g., from this folder:
+## Commands
+`commands.html` first tries `./commands-data.json`, so deployment to the existing official repository reuses the existing 316-declaration file. If absent, it fetches the original published repository JSON over HTTPS: `https://raw.githubusercontent.com/Sepulchrebot/sepulchrebot.github.io/main/commands-data.json`. **Internet access is needed if the file isn't local.** If CORS/network blocks retrieval, a link to the original command directory appears; invented commands never appear. Legacy commerce commands are hidden by default. This is a source catalog, not proof of live command registration.
 
-```bash
-python -m http.server 8000
-```
+## Other pages
+The Embed Studio creates, previews, copies, and downloads JSON in-browser only. The status page does not claim a live bot status. FAQ answers reflect published purchase/license statements and general setup. Existing official Terms/Privacy/Refund URLs are linked, not rewritten. The website runs without a build step or framework. JavaScript adds movement/search/editing but CSS remains functional if JavaScript is unavailable.
 
-Then open `http://localhost:8000/`.
+## Testing
+Open `index.html`, or run `python -m http.server 8000` inside this folder then open `http://localhost:8000`. Chrome/Chromium or Firefox recommended. On GitHub Pages, all pages/assets must be uploaded together. This build does not deploy or change the user's GitHub repository or Discord bot.
 
-## Before publishing
+## Previews and browser check limitation
+The `previews/` folder contains **Pillow-generated static visual concepts**, not real browser screenshots. The local Chromium browser in this execution environment returned `ERR_BLOCKED_BY_ADMINISTRATOR` even for `data:` and `file:` URLs, so a genuine Chrome screenshot could not be captured. The site passed file/path/markup checks, CSS token parsing, and Node.js JavaScript syntax checks; this is **not** a claim that interactive browser behavior was validated end-to-end. Test the published GitHub Pages deployment before replacing the public site.
 
-1. Edit `assets/config.js` with **your official** HTTPS bot invite URL, Discord support URL, and (if applicable) dashboard URL. Empty buttons show a setup dialog instead of redirecting elsewhere.
-2. If you have real status telemetry, set `statusEndpoint` to a URL returning a JSON object like:
-
-```json
-{"status":"operational","message":"All systems ready","servers":12,"users":1900,"latency_ms":62,"uptime":99.8}
-```
-
-   Status must be one of `operational`, `degraded`, or `outage`. The endpoint must be read-only, safe for public access, use HTTPS in production and enable CORS for the website origin. Counters remain blank when disconnected. The graph is a static demonstration and remains labeled as such even after connecting counters.
-3. Replace the **illustrative** entries in the `COMMANDS` array in `assets/site.js` with the bot's verified commands, descriptions, and permission requirements.
-4. Replace TBD licensing cards with your official offers; publish approved Terms of Service, Privacy Policy, and Refund Policy before offering paid plans.
-5. Replace `assets/sepulchre-mark.svg` with your final original brand logo if you want to use the official production emblem. This website includes an original vector placeholder logo.
-6. Connect an authenticated server-side API before presenting the dashboard as a functional Discord administration tool. Do **not** put Discord bot tokens, client secrets, or DB credentials in HTML/JS.
-7. Review actual Discord OAuth scopes, role hierarchy, member intent requirements, and permissions before adding a production invite link.
-8. Ensure all advertised features and bot versions match the deployed release.
-
-## Important security and functionality notes
-
-- Embeds are designed locally. JSON is copied or downloaded by the user; **no messages are posted**. Only valid `https://` image URLs are loaded in preview.
-- Dashboard toggles are intentionally browser-local mock controls. They do not authenticate or modify any server.
-- FAQ policy answers are deliberately noncommittal about terms not supplied.
-- Charts, counts in the dashboard mock, and sample interface visuals are design placeholders, **not claimed metrics**.
-- Pages have responsive CSS for mobile, reduced-motion support, and semantic controls.
-- No external JS frameworks or CDNs are required.
-
-## Page previews
-
-The `previews` folder contains real Chromium screenshots of every page at desktop viewport size and a mobile homepage preview, generated from these exact files.
+Each HTML page embeds CSS and JS. If you customize `assets/style.css` or `assets/site.js`, regenerate the inlined copies before deployment (or edit the inline CSS/JS directly). The `tools/rebuild-inline.py` utility updates those copies.

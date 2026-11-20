@@ -1,0 +1,32 @@
+SEPULCHRE v15 — GITHUB PAGES DEPLOYMENT
+=======================================
+
+1. BACK UP your existing website repository before editing.
+2. Extract this ZIP locally. Open index.html to inspect.
+3. Copy index.html, the other six .html files, assets/ and .nojekyll
+   into the ROOT of your GitHub Pages repository (the directory GitHub
+   Pages serves). Keep the asset folder beside the HTML pages.
+4. Do NOT delete existing legal documents, docs folders, or
+   commands-data.json from the original Sepulchre website repository.
+5. Commit/push the files and let GitHub Pages deploy.
+6. Open your real Pages URL and hard refresh (Ctrl+Shift+R).
+7. Check the dark styling, logo, menu, search, embed draft preview,
+   Purchase -> purchase info -> official Discord server.
+
+Important for /sepulchre-legal/
+All seven HTML files contain their own styles and scripts, and navigation
+uses relative paths. The previous unstyled-white-page failure was most likely
+caused by the stylesheet/asset files not being published at the path expected
+by the HTML. This release avoids that dependency for its core styling.
+
+The source command catalog loads from the official Sepulchre repository
+when available. In offline mode it shows a transparent fallback, not fake
+commands. Live bot stats are deliberately not invented.
+
+Official Discord purchase/support destination:
+https://discord.gg/88nA6GTD7Q
+
+Original published license price: $5.99 USD, one time for one server.
+
+These files were NOT deployed to your repository automatically.
+The PREVIEWS are static visual concepts, not browser screenshots.
